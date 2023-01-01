@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11.3 flex basics</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+    
+  }
+  .box {
+    width: 10vw;
+    height: 10vh;
+    
+  }
+
+  .box-1 {
+    background-color: rgb(21, 255, 0);
+  }
+
+  .box-2 {
+    background-color: rgba(30, 0, 255, 0.291);
+  }
+
+  .box-3 {
+    background-color: red;
+  }
+</style>
+
+<body>
+  <section class="container">
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+  </section>
+</body>
+
+</html>

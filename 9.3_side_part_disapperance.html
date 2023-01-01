@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>9.3 side bar disaperance</title>
+</head>
+
+<style>
+  .box{
+  color: white;
+  width: 25vw;
+  height: fit-content;
+  display: inline-block;
+}
+.box-1{
+  width: 100vw;
+  background-color: black;
+
+}
+.box-2{
+  background-color: aqua;
+  width: 80vw;
+  position: absolute;
+  left: 20.0.5vw;
+}
+.box-3{
+  float: left;
+  height: 90vh;
+  width: 20vw;
+  background-color: rgb(195, 0, 0);
+
+}
+
+@media (max-width:500px) {
+  .box-3{
+    display: none;
+
+  }
+  .box-2{
+    width: 100vw;
+  }
+  
+}
+</style>
+<body>
+  <body>
+    <div class="container">
+    <div class="box-1 box">
+      <h1>First item</h1>
+    </div>
+    <div class="box-2 box">
+      <h1>Secound item</h1>
+    </div>
+    <div class="box-3 box">
+      <h1>Third item</h1>
+    </div>
+    <div class="box-4 box">
+      <h1>Fourth item</h1>
+    </div>
+  </div>    
+</body>
+</html>

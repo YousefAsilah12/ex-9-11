@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.nav{
+  width: 100vw;
+  height: 10vh;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+.nav .leftside{
+  width: fit-content;
+  align-self: flex-start;
+  padding: 0 2vw ;
+}
+.nav .midSide {
+  width: fit-content;
+  align-self: flex-end;
+  padding: 0 2vw ;
+
+}
